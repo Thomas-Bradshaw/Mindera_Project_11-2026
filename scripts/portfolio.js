@@ -13,7 +13,7 @@ function colourChange(colour) {
     else{
         body.style.backgroundColor = "#1e1e1e"
         header.style.backgroundColor = "#404040"
-        for (let loop = 0; loop < skill.length-1; loop++) {
+        for (let loop = 0; loop < skill.length; loop++) {
             skill[loop].style.backgroundColor = "#404040"
         }
         checker.innerHTML = `<button class = "button" onclick = "colourChange('GREEN')">GREEN</button>`
